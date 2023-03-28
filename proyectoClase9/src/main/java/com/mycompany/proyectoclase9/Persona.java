@@ -10,11 +10,12 @@ import java.time.LocalDate;
  *
  * @author pbarzaghi
  */
-@lombok.Getter
-@lombok.Setter
+//@lombok.Getter
+//@lombok.Setter
 @lombok.AllArgsConstructor
 @lombok.NoArgsConstructor
-
+@lombok.Data
+        
 public class Persona {
     private String nombre;
     private String apellido;
